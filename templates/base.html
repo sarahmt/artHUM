@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{% block title %}{% endblock %}</title>
+
+    
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/normalize.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/foundation.css') }}">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}">
+  <link href='http://fonts.googleapis.com/css?family=La+Belle+Aurore' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Quicksand|Old+Standard+TT' rel='stylesheet' type='text/css'>
+
+    
+    
+    {% block head %}
+    {% endblock %}
+  </head>
+
+  <body>
+    {% block body %}
+
+
+
+
+
+    
+    {% endblock %}
+  </body>
+</html>

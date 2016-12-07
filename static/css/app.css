@@ -1,0 +1,78 @@
+/* app.css */
+
+.homelogo {
+
+}
+
+.hometext {
+	margin-top: 3rem;
+	text-align: center;
+	font-family: 'La Belle Aurore'; 
+	font-size: 3rem;
+	font-color: #2B2B2B;
+}
+
+h1 {
+font-family: 'La Belle Aurore';
+padding-top: 16px;
+padding-left: 16px;
+}
+
+h5 {
+	font-family: "Quicksand";
+	font-weight: bold;
+	padding: 8px;
+}
+
+.paragraph {
+	padding: 8px;
+	font-family: "Quicksand";
+
+}
+
+.hometext a {
+		color: #2B2B2B;
+}
+
+.hometext:hover {
+	font-weight: bold;
+}
+
+.footer {
+position: fixed;
+bottom: 0px;
+right: 0px;
+padding-right: 16px;
+background: white;
+border: 0.7rem solid white;
+border-radius: 1rem;
+
+}
+
+.heading {
+	background-image: url("http://cache.desktopnexus.com/cropped-wallpapers/1936/1936633-1440x900-[DesktopNexus.com].jpg?st=T6n1tb5WTI06K1kxqceC8g&e=1433290554");
+	background-repeat: no-repeat;
+	border: 4px solid #2B2B2B;
+}
+
+.bodybackground {
+	background-image: url("http://cache.desktopnexus.com/cropped-wallpapers/1936/1936633-1440x900-[DesktopNexus.com].jpg?st=T6n1tb5WTI06K1kxqceC8g&e=1433290554");
+	background-repeat: no-repeat;
+	border: 4px solid #2B2B2B;
+}
+
+
+
+.footer a {
+	opacity: 0.79;
+}
+a:hover {
+	opacity: 1;
+}
+
+.smallfooter {
+	bottom: 16px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
